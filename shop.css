@@ -1,0 +1,83 @@
+/* Body Styling */
+body {
+    margin: 0;
+    font-family:serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    font-family:serif;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Products */
+#products div {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Button */
+button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+a:hover {
+  color: pink;
+  transition: 0.3s;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: pink;
+}

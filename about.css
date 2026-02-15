@@ -1,0 +1,13 @@
+body {
+    background:#f5f2ee;
+    font-family:serif;
+}
+
+body {
+    text-align : center;
+}
+
+a:hover {
+  color: pink;
+  transition: 0.3s;
+}

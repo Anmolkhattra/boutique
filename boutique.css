@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: serif;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: black;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f5f2ee;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.products {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+a:hover {
+  color: pink;
+  transition: 0.3s;
+}
